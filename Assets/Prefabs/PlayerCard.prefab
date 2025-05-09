@@ -295,6 +295,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1999389974868105247}
+  - component: {fileID: 5750311658344690850}
   m_Layer: 5
   m_Name: PlayerCard
   m_TagString: Untagged
@@ -324,3 +325,23 @@ RectTransform:
   m_AnchoredPosition: {x: 122.081055, y: 312.5103}
   m_SizeDelta: {x: 213.05258, y: 50.00023}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5750311658344690850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6947533374672966909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c51d39920b8c52c468b9fe0c1f3bfa61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visuals: {fileID: 6947533374672966909}
+  characters:
+  - {fileID: 5620807263646825662, guid: 69034d9468b3d87688d89aca17960e01, type: 3}
+  - {fileID: -2078311225912365661, guid: b7bb858fdfef706f8bee4261ce6ac950, type: 3}
+  - {fileID: -7755712078156234033, guid: 746422838a7ab11fd96cb70c833b0302, type: 3}
+  - {fileID: -1939042078260823365, guid: 709da0a090910062ab875583bb5a95d9, type: 3}
+  characterIconImage: {fileID: 9031540079704920941}
+  playerNameText: {fileID: 8979179113745156452}

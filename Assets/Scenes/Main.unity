@@ -266,7 +266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 709841708}
   - component: {fileID: 709841706}
-  - component: {fileID: 709841707}
+  - component: {fileID: 709841709}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -293,30 +293,12 @@ MonoBehaviour:
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
   ActiveSceneSynchronization: 0
-  SceneMigrationSynchronization: 1
+  SceneMigrationSynchronization: 0
   SpawnWithObservers: 1
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
   SyncOwnerTransformWhenParented: 1
   AllowOwnerToParent: 0
---- !u!114 &709841707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709841705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e1509d7308dde5d7a7be3b95885d2b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowTopMostFoldoutHeaderGroup: 1
-  characters:
-  - {fileID: 8241702384795497821, guid: c43a163ec984c236c8ad234af537c036, type: 3}
-  - {fileID: 8241702384795497821, guid: 841469c6e2c7fac11a3d6a9f42338216, type: 3}
-  - {fileID: 8241702384795497821, guid: 488ce46e88f92088885f6d823fcc6aeb, type: 3}
-  - {fileID: 8241702384795497821, guid: 9e9fdd28b95bdd62e8faf53458e08ab6, type: 3}
 --- !u!4 &709841708
 Transform:
   m_ObjectHideFlags: 0
@@ -332,6 +314,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &709841709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709841705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e00bf7715c838133597068577453df1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  characters:
+  - {fileID: 8241702384795497821, guid: c43a163ec984c236c8ad234af537c036, type: 3}
+  - {fileID: 8241702384795497821, guid: 9e9fdd28b95bdd62e8faf53458e08ab6, type: 3}
+  - {fileID: 8241702384795497821, guid: 488ce46e88f92088885f6d823fcc6aeb, type: 3}
+  - {fileID: 8241702384795497821, guid: 841469c6e2c7fac11a3d6a9f42338216, type: 3}
 --- !u!1 &1750981544
 GameObject:
   m_ObjectHideFlags: 0
